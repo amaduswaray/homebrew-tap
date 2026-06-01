@@ -1,20 +1,20 @@
 class Shellql < Formula
   desc "Vim- and tmux-inspired terminal database manager for developers"
   homepage "https://github.com/amaduswaray/ShellQL"
-  version "0.1.4-beta"
+  version "0.1.6-beta"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/amaduswaray/ShellQL/releases/download/v0.1.4-beta/shql-macos-arm64"
-      sha256 "7882a8b6db2f88757e18032ec8ba99af51c5ed4940718544f4581f9555b598b1"
+      url "https://github.com/amaduswaray/ShellQL/releases/download/v0.1.6-beta/shql-macos-arm64"
+      sha256 "cd3ff68d5de979220cd79c5f8b25d64a2c236edb7a98c43a858b3f3318b51f61"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/amaduswaray/ShellQL/releases/download/v0.1.4-beta/shql-linux-x86_64"
-      sha256 "1a6c795ae4918e9e173f532246944bd6085e5bc5a729a145eee17d5e0aadfb53"
+      url "https://github.com/amaduswaray/ShellQL/releases/download/v0.1.6-beta/shql-linux-x86_64"
+      sha256 "b1d8c88fbdaca001411c7c239235b8978b15af20e147e95aaac6ef3354218d7b"
     end
   end
 
